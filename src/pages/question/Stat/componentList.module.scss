@@ -1,0 +1,19 @@
+.componentlist{
+    background-color: #fff;
+    margin: 10px;
+}
+.componentwarpper{
+    margin-right: 8px;
+    padding: 12px;
+    margin-top: 8px;
+    &:hover{
+        box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    }
+}
+.component{
+    pointer-events: none;
+    opacity: 0.8;
+}
+.active{
+    border: 1px solid skyblue;
+}

@@ -1,0 +1,25 @@
+.header-warpper{
+    background-color: white;
+    border-bottom: 1px solid #e8e8e8;
+    padding: 12px 0;
+}
+.header{
+    margin: 0 24px;
+    display: flex;
+
+    .left{
+        flex:1;
+        h1{
+            font-size: 18px;
+            margin: 0;
+            line-height: 1
+        }
+    };
+    .main{
+
+    }
+    .right{
+        flex: 1;
+        text-align: right;
+    }
+}

@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f0f2f5;
+}
+.content-warpper{
+    flex: 1;
+    height: 100%;
+    padding: 12px 0;
+
+}
+.content{
+    margin: 0 24px;
+    display: flex;
+    min-height: calc(100vh - 88px);
+    .left{
+        width: 350px;
+        background-color: white;
+        margin-right: 24px;
+    }
+    .main{
+        flex: 1;
+        flex-shrink: 0;  
+        flex: auto;
+        background-color: #fff;
+        padding: 12px 18px;
+    }
+    .right{
+        width: 400px;
+        flex-shrink: 0;  
+        margin-left: 24px;
+        background-color: #fff;
+        padding: 12px 18px;
+        overflow: hidden;
+    }
+}
