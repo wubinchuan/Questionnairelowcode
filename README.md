@@ -1,46 +1,21 @@
-# Getting Started with Create React App
+React 可视化拖拽生成问卷的低代码平台
+项目简介
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+本项目是一个基于React的可视化拖拽生成问卷的低代码平台。通过封装大量组件和hooks，结合Redux状态管理和Mock.js数据模拟，用户可以轻松拖拽组件生成问卷，并实时预览和导出问卷结果。
+技术栈
 
-## Available Scripts
+    前端框架：React
+    状态管理：Redux
+    数据模拟：Mock.js
+    UI库：Ant Design（或其他UI库，根据项目实际使用）
+    拖拽库：react-dnd（或其他拖拽库，根据项目实际使用）
+    构建工具：Webpack（或使用Create React App等脚手架工具）
 
-In the project directory, you can run:
+功能特性
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+    可视化拖拽：用户可以通过拖拽组件的方式生成问卷。
+    多组件支持：封装了多种问卷组件，如单选框、多选框、输入框、文本域等。
+    实时预览：拖拽生成问卷的同时，可以实时预览问卷效果。
+    问卷结果导出：支持导出问卷结果到CSV、Excel等格式。
+    状态管理：使用Redux管理问卷生成过程中的状态。
+    数据模拟：使用Mock.js模拟后端数据接口，方便前端开发和调试。
